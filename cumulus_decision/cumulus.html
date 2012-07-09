@@ -10,7 +10,6 @@
     <meta name="author" content="Glen Holcomb">
 
     <link rel="stylesheet" type="text/css" href="css/cumulus.css">
-    <script type="text/javascript" src="js/impress.js"></script>
   </head>
 
   <body class="impress-not-supported">
@@ -25,18 +24,18 @@
 
     <div id="impress">
       <!-- First step, maybe not even a step? -->
-      <section id="overview">
-        <atricle id="introductions">
+      <section id="overview" >
+        <atricle id="introductions" class="step board" data-x="-1000" data-y="-1500" data-rotate-x="90">
           <p>Central New Mexico Community College</p>
           <p>Marketing Specialist: Miranda Evjen</p>
           <p>Web Developer: Glen Holcomb</p>
         </atricle>
 
-        <article id="environment">
+        <article id="environment" class="step board" data-x="-1500" data-y="-1000" data-rotate-x="90" data-rotate-y="90">
           <p>Student Portal: Luminis IV</p>
         </article>
 
-        <article id="timeline">
+        <article id="timeline" class="step board" data-x="-1000" data-y="-500" data-rotate-x="90" data-rotate-y="180">
           <p>Project officially started in November 2011???</p>
           <p>Had to be finished before Fall term of 2012</p>
         </article>
@@ -133,6 +132,7 @@
       </section>
     </div>
 
+    <script type="text/javascript" src="js/impress.js"></script>
     <script>impress().init()</script>
   </body>
 </html>
