@@ -111,7 +111,7 @@
 body {
   min-height: 740px;
 
-  background-color: #969093;
+  background-color: #000;
 }
 
 
@@ -161,8 +161,8 @@ body {
   margin: 0;
   opacity: 0.5;
 
-  --webkit-transition:  opacity 1s;
-  --moz-transition:     opacity 1s;
+  -webkit-transition:  opacity 1s;
+  -moz-transition:     opacity 1s;
   -ms-transition:       opacity 1s;
   -o-transition:        opacity 1s;
   transition:           opacity 1s;
@@ -170,17 +170,24 @@ body {
 
 
 .board {
-  min-width: 450px;
+  display: block;
 
-  font: 27px/36px 'ActionManRegular', Arial, sans-serif;
+  width: 700px;
+  height: 500px;
+  padding: 30px 50px;
+
+  font: 45px/54px 'ActionManRegular', Arial, sans-serif;
 
   color: white;
-  background-color: #4D4D4D;
+  background: #000 url('../images/wood_texture_horizontal.jpg');
 }
 
+
 .board p {
-  text-shadow: 2px 4px 6px #332211;
+  -webkit-mask: url('../images/wood_texture_horizontal.png') center top;
+  mask: url('../images/wood_texture_horizontal.png') center top;
 }
+
 
 .board p:first-letter {
   font-size: 1.2em;
