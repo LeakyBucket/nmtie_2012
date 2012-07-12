@@ -192,3 +192,17 @@ body {
 .board p:first-letter {
   font-size: 1.2em;
 }
+
+
+.envelope {
+  display: block;
+
+  width: 700px;
+  height: 500px;
+  padding: 20px 40px;
+
+  font: 45px/54px 'ActionManShadedRegular', Arial, sans-serif;
+
+  color: black;
+  background-color: #FFF;
+}
