@@ -1,3 +1,113 @@
+@font-face {
+    font-family: 'ActionManRegular';
+    src: url('../fonts/action_man/Action_Man-webfont.eot');
+    src: url('../fonts/action_man/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man-webfont.svg#ActionManRegular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManItalic';
+    src: url('../fonts/action_man/Action_Man_Italic-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Italic-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Italic-webfont.svg#ActionManItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManBold';
+    src: url('../fonts/action_man/Action_Man_Bold-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Bold-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Bold-webfont.svg#ActionManBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManBoldItalic';
+    src: url('../fonts/action_man/Action_Man_Bold_Italic-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Bold_Italic-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Bold_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Bold_Italic-webfont.svg#ActionManBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManShadedRegular';
+    src: url('../fonts/action_man/Action_Man_Shaded-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Shaded-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Shaded-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Shaded-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Shaded-webfont.svg#ActionManShadedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManShadedItalic';
+    src: url('../fonts/action_man/Action_Man_Shaded_Italic-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Shaded_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Shaded_Italic-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Shaded_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Shaded_Italic-webfont.svg#ActionManShadedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManExtendedRegular';
+    src: url('../fonts/action_man/Action_Man_Extended-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Extended-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Extended-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Extended-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Extended-webfont.svg#ActionManExtendedRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManExtendedItalic';
+    src: url('../fonts/action_man/Action_Man_Extended_Italic-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Extended_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Extended_Italic-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Extended_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Extended_Italic-webfont.svg#ActionManExtendedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManExtendedBold';
+    src: url('../fonts/action_man/Action_Man_Extended_Bold-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Extended_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Extended_Bold-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Extended_Bold-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Extended_Bold-webfont.svg#ActionManExtendedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ActionManExtendedBoldItalic';
+    src: url('../fonts/action_man/Action_Man_Extended_Bold_Italic-webfont.eot');
+    src: url('../fonts/action_man/Action_Man_Extended_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/action_man/Action_Man_Extended_Bold_Italic-webfont.woff') format('woff'),
+         url('../fonts/action_man/Action_Man_Extended_Bold_Italic-webfont.ttf') format('truetype'),
+         url('../fonts/action_man/Action_Man_Extended_Bold_Italic-webfont.svg#ActionManExtendedBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   min-height: 740px;
 
@@ -60,6 +170,18 @@ body {
 
 
 .board {
+  min-width: 450px;
+
+  font: 27px/36px 'ActionManRegular', Arial, sans-serif;
+
   color: white;
   background-color: #4D4D4D;
+}
+
+.board p {
+  text-shadow: 2px 4px 6px #332211;
+}
+
+.board p:first-letter {
+  font-size: 1.2em;
 }
