@@ -184,6 +184,13 @@ body {
 
 
 .board p {
+  text-shadow:  -3px 3px 0 #393431,
+                0 3px 0 #393431,
+                -3px 0 0 #393431,
+                -4px 4px 0 #b06955,
+                -6px 6px 0 #b06955,
+                -8px 8px 0 #b06955;
+
   -webkit-mask: url('../images/wood_texture_horizontal.png') center top;
   mask: url('../images/wood_texture_horizontal.png') center top;
 }
