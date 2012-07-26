@@ -212,23 +212,18 @@ body {
 }
 
 
-.left-lane {
+.it-slide {
   display: block;
 
-  width: 1440px;
+  width: 700px;
   height: 800px;
-  padding: 20px 40px;
 
   font: 45px/54px 'ActionManItalic', Arial, sans-serif;
   color: white;
-
-  background-image: url('../images/road.svg');
-  background-size: contain;
-  background-position: top left;
 }
 
 
-.right-lane {
+.student-slide {
   display: block;
 
   width: 700px;
@@ -241,7 +236,7 @@ body {
 }
 
 
-.street {
+.right-lane {
   position: relative;
   left: -700px;
   top: -40px;
@@ -256,16 +251,14 @@ body {
 }
 
 
-.envelope {
-  display: block;
+.left-lane {
+  position: relative;
+  padding-left: 60px;
+  padding-top: 20px;
 
-  width: 700px;
-  height: 500px;
-  padding: 20px 40px;
-  background-size: 100%;
+  width: 1440px;
+  height: 800px;
 
-  font: 45px/54px 'ActionManShadedRegular', Arial, sans-serif;
-
-  color: black;
-  background-image: url('../images/envelope.svg');
+  background-image: url('../images/road.svg');
+  background-size: auto;
 }
