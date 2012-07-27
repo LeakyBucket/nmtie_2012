@@ -263,3 +263,13 @@ body {
   background-image: url('../images/textured_road.png');
   background-size: auto;
 }
+
+.right-lane p {
+  -webkit-mask: url('../images/road_mask.png') center top;
+  mask: url('../images/road_mask.png') center top;
+}
+
+.left-lane p {
+  -webkit-mask: url('../images/road_mask.png') center top;
+  mask: url('../images/road_mask.png') center top;
+}
