@@ -246,7 +246,7 @@ body {
   width: 740px;
   height: 800px;
 
-  background-image: url('../images/road.svg');
+  background-image: url('../images/textured_road.png');
   background-size: auto;
 }
 
@@ -260,6 +260,6 @@ body {
   width: 1440px;
   height: 800px;
 
-  background-image: url('../images/road.svg');
+  background-image: url('../images/textured_road.png');
   background-size: auto;
 }
