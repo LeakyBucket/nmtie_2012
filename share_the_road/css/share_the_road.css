@@ -168,6 +168,11 @@ body {
 }
 
 
+.step p:first-letter {
+  font-size: 1.4em;
+}
+
+
 .impress-enabled .step {
   margin: 0;
   opacity: 1;
@@ -204,11 +209,6 @@ body {
 
   -webkit-mask: url('../images/wood_texture_horizontal.png') center top;
   mask: url('../images/wood_texture_horizontal.png') center top;
-}
-
-
-.board p:first-letter {
-  font-size: 1.2em;
 }
 
 
