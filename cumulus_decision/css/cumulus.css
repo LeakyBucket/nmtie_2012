@@ -122,7 +122,7 @@ body {
   );
   */
 
-  background-color: #555553;
+  background-color: black;
 }
 
 
@@ -253,6 +253,7 @@ body {
 
 .left-lane {
   position: relative;
+  top: -40px;
   padding-left: 60px;
   padding-top: 20px;
 
