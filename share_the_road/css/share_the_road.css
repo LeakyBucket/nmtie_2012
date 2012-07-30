@@ -254,10 +254,10 @@ body {
 .left-lane {
   position: relative;
   top: -40px;
-  padding-left: 60px;
+  padding-left: 40px;
   padding-top: 20px;
 
-  width: 1440px;
+  width: 1460px;
   height: 800px;
 
   background-image: url('../images/textured_road.png');
